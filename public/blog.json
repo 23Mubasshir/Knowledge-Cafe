@@ -1,0 +1,42 @@
+[
+    {
+        "id": "aa11",
+        "author name": "James Smith Mara Alvarado Maynard Rivera Julianne Allen",
+        "blog title": "Reasons Why Ai Is Getting More Popular In The Past Decade.",
+        "img": "https://images.unsplash.com/photo-1526378722484-bd91ca387e72?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1034&q=80",
+        "author image": "https://images.unsplash.com/photo-1535713875002-d1d0cf377fde?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1160&q=80",
+        "publish Date": "Jun 23(10 days ago)",
+        "read time": 15
+    },
+
+    {
+        "id": "bb22",
+        "author name": "Mara Alvarado",
+        "blog title": "Ten Advantages Of Ai And How You Can Make Full Use Of It.",
+        "img": "https://images.unsplash.com/photo-1507146153580-69a1fe6d8aa1?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1170&q=80",
+        "author image": "https://images.unsplash.com/photo-1561828970-daff2303fe58?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=880&q=80",
+        "publish Date": "july 2(1 days ago)",
+        "read time": 10
+    },
+
+    {
+        "id": "cc33",
+        "author name": "Maynard Rivera",
+        "blog title": "7 Secrets About Ai That Nobody Will Tell You.",
+        "img": "https://plus.unsplash.com/premium_photo-1675793715068-8cd9ce15f430?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1074&q=80",
+        "author image": "https://images.unsplash.com/photo-1514501259756-f4b6fbeffa67?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=880&q=80",
+        "publish Date": "Jun 28(5 days ago)",
+        "read time": 12
+    },
+
+    {
+        "id": "dd44",
+        "author name": "Julianne Allen",
+        "blog title": "The 10 Steps Needed For Putting Ai Into Action.",
+        "img": "https://plus.unsplash.com/premium_photo-1676637656277-498f73258bec?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1032&q=80",
+        "author image": "https://images.unsplash.com/photo-1581824043583-6904b080a19c?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1076&q=80",
+        "publish Date": "july 1(2 days ago)",
+        "read time": 5
+    }
+    
+]
