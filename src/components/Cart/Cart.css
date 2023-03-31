@@ -13,6 +13,7 @@
     border: 1px solid #6047EC;
     border-radius: 8px;
     margin-bottom: 30px;
+    position: relative;
 }
 
 .author-img {
@@ -51,6 +52,8 @@
 font-weight: 600;
 font-size: 20px;
 color: #6047EC;
+position: absolute;
+bottom: 20px;
 }
 .middle-section h4{
     color: rgba(0, 0, 0, 0.637);
