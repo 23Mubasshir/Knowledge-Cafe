@@ -1,8 +1,17 @@
-.question-answer-header h1{
+.question-answer-component{
+    margin: 0 250px 150px 250px;
+}
+
+
+.question-answer-component h1{
     text-align: center;
-    margin-top: 20px;
+    margin: 50px 0px 40px 0px;
     font-size: 50px;
 }
 .question-answer{
-padding: 0 100px 0 100px;
+font-size: 18px;
+}
+
+.question-answer h3{
+    font-size: 25px;
 }
