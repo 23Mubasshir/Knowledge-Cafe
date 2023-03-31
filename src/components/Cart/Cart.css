@@ -45,10 +45,13 @@
 
 
 .middle-section{
-    margin: 10px 40px 20px 20px ;
+    margin: 10px 40px 10px 20px ;
 }
 .middle-section a{
-    font-weight: 600;
+font-weight: 600;
 font-size: 20px;
 color: #6047EC;
+}
+.middle-section h4{
+    color: rgba(0, 0, 0, 0.637);
 }

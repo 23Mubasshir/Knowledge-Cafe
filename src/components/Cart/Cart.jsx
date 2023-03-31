@@ -3,7 +3,16 @@ import "./Cart.css";
 
 const Cart = (props) => {
   console.log(props);
-  const { img, authorName, authorImage, publishDate, readTime, blogTitle, id} = props.blog;
+  const {
+    img,
+    authorName,
+    authorImage,
+    publishDate,
+    readTime,
+    blogTitle,
+    id,
+    hasTag,
+  } = props.blog;
   return (
     <div className="cart">
       <img className="blog-img" src={img} alt="" />
@@ -24,8 +33,14 @@ const Cart = (props) => {
       </div>
 
       <div className="middle-section">
-        <h1>{blogTitle}</h1>
-        <a href="/mark">Mark as read</a>
+        <div>
+          <h1>{blogTitle}</h1>
+          <h4>{hasTag}</h4>
+        </div>
+
+        <div>
+          <a href="/mark">Mark as read</a>
+        </div>
       </div>
     </div>
   );
