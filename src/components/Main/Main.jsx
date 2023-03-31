@@ -18,7 +18,6 @@ const Main = () => {
             <div className='cart-container'>
             {blogs.map(blog => 
           <Cart key={blog.id} blog={blog} >
-            
           </Cart>)}
             </div>
 
