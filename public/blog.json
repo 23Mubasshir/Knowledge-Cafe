@@ -1,6 +1,6 @@
 [
     {
-        "id": "aa11",
+        "id": 11,
         "authorName": "James Smith",
         "blogTitle": "Reasons Why Ai Is Getting More Popular In The Past Decade.",
         "img": "https://images.unsplash.com/photo-1526378722484-bd91ca387e72?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1034&q=80",
@@ -11,7 +11,7 @@
     },
 
     {
-        "id": "bb22",
+        "id": 22,
         "authorName": "Mara Alvarado",
         "blogTitle": "Ten Advantages Of Ai And How You Can Make Full Use Of It.",
         "img": "https://images.unsplash.com/photo-1507146153580-69a1fe6d8aa1?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1170&q=80",
@@ -22,7 +22,7 @@
     },
 
     {
-        "id": "cc33",
+        "id": 33,
         "authorName": "Maynard Rivera",
         "blogTitle": "7 Secrets About Ai That Nobody Will Tell You.",
         "img": "https://plus.unsplash.com/premium_photo-1675793715068-8cd9ce15f430?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1074&q=80",
@@ -33,7 +33,7 @@
     },
 
     {
-        "id": "dd44",
+        "id": 44,
         "authorName": "Julianne Allen",
         "blogTitle": "The 10 Steps Needed For Putting Ai Into Action.",
         "img": "https://plus.unsplash.com/premium_photo-1676637656277-498f73258bec?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1032&q=80",

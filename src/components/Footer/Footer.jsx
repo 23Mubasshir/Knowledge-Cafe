@@ -48,14 +48,8 @@ const Footer = () => {
         <h3>3.What is the purpose of useEffect other than fetching data ?</h3>
 
         <p>
-          The useEffect Hook allows you to perform side effects in your
-          components. On the other hand fetching data is the process of grabbing
-          data from the database and making it available to the application also
-          by fetching data it can retrieving data from an external source, such
-          as an API, database, or file, and displaying it in a React component.
-          The useEffect hook in React can be used to perform various side
-          effects other than fetching data, such as updating the document title,
-          handling events, subscribing to a WebSocket, and more.
+          The useEffect Hook can perform side effects in your
+          components.Other than that useEffect hook in React can be used to perform various side effects other than fetching data, such as manipulating DOM,updating the document title, triggering animations, handling events, subscribing to a WebSocket, and more.
         </p>
 
         <h3>4.How Does React work ?</h3>

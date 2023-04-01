@@ -12,5 +12,3 @@ const BookMarkBar = (props) => {
 };
 
 export default BookMarkBar;
-
-
