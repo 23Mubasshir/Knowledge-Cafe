@@ -48,13 +48,25 @@
 .middle-section{
     margin: 10px 40px 10px 20px ;
 }
-.middle-section a{
+
+.mark{
 font-weight: 600;
 font-size: 20px;
 color: #6047EC;
 position: absolute;
 bottom: 20px;
+background:none;
+border:none;
+text-decoration: underline;
 }
+
+.mark:hover{
+    font-weight: 620;
+    font-size: 21px;
+    color: #6047EC;
+}
+
+
 .middle-section h4{
     color: rgba(0, 0, 0, 0.637);
 }

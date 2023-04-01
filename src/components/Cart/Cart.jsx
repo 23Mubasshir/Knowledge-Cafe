@@ -1,20 +1,19 @@
 import React from "react";
 import "./Cart.css";
-import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
-import { faBookmark } from '@fortawesome/free-solid-svg-icons'
+import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
+import { faBookmark } from "@fortawesome/free-solid-svg-icons";
 
 const Cart = (props) => {
-  const {
-    img,
-    authorName,
-    authorImage,
-    publishDate,
-    readTime,
-    blogTitle,
-    id,
-    hasTag,
-  } = props.blog;
+  const {img, authorName, authorImage, publishDate, readTime, blogTitle, id, hasTag} = props.blog;
+  // For spent total time
+  const handleAddToCart = props.handleAddToCart;
+
+  // For Booked marked blogs
+  const AddToBookMark = props.AddToBookMark;
+
+
   return (
+    
     <div className="cart">
       <img className="blog-img" src={img} alt="" />
 
@@ -29,7 +28,9 @@ const Cart = (props) => {
         </div>
 
         <div>
-          <h4>{readTime} min read  <FontAwesomeIcon icon={faBookmark} /></h4>
+          <h4>
+            {readTime} min read <FontAwesomeIcon onClick={() => AddToBookMark(props.blog)} icon={faBookmark} />
+          </h4>
         </div>
       </div>
 
@@ -40,7 +41,7 @@ const Cart = (props) => {
         </div>
 
         <div>
-          <a href="/mark">Mark as read</a>
+          <button className="mark" onClick={() => handleAddToCart(props.blog)}>Mark as read</button>
         </div>
       </div>
     </div>

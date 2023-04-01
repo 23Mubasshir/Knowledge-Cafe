@@ -1,0 +1,16 @@
+.spent-time{
+background: rgba(96, 71, 236, 0.1);
+border: 1px solid #6047EC;
+color: #6047EC;
+border-radius: 8px;
+padding: 20px; 
+text-align: center;
+}
+.sidebar-container{
+margin: 0 20px 0 20px;
+}
+.book-mark{
+padding: 20px;
+background: rgba(17, 17, 17, 0.05);
+border-radius: 8px;
+}
