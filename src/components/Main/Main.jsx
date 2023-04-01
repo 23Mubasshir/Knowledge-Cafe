@@ -3,6 +3,8 @@ import './Main.css';
 import '../../../public/blog.json';
 import Cart from '../Cart/Cart'
 import SideBar from '../SideBar/SideBar';
+import BookMarkBar from '../BookMarkBar/BookMarkBar';
+import BookMarkTitle from '../BookMarkTitle/BookMarkTitle'
 
 const Main = () => {
     const [blogs, setBlogs] = useState([]);
@@ -30,7 +32,6 @@ const Main = () => {
         const newBookMark = [...bookMark, blog];
         setBookMark(newBookMark);
     }
-  
     return (
         <div className='main-container'>
 
@@ -46,7 +47,9 @@ const Main = () => {
 
             <div>
                 <SideBar cart={cart} ></SideBar>
-                {/* <SideBar bookMark = {bookMark}></SideBar> */}
+                <BookMarkTitle bookMark = {bookMark}></BookMarkTitle>
+                {bookMark.map(single => <BookMarkBar key={single.id} single={single}></BookMarkBar>)}
+                
             </div>
             
         </div>
